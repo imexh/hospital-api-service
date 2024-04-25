@@ -42,7 +42,7 @@ public class PatientHandler {
         return new ResponseEntity<>(this.patientQualificationServiceConnector.isPatientQualified(id), HttpStatus.OK);
     }
 
-    @GetMapping("/qualified/patients")
+    @GetMapping("/patients/qualified")
     public ResponseEntity<List<PatientViewResponseDTO>> getAllQualifiedPatients() {
         return new ResponseEntity<>(this.patientQualificationServiceConnector.getAllQualifiedPatients(), HttpStatus.OK);
     }
