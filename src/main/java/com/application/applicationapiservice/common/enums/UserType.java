@@ -2,7 +2,7 @@ package com.application.applicationapiservice.common.enums;
 
 public enum UserType {
     DONATION_CENTER("DONATION_CENTER"),
-    PHILANTHROPIST("PHILANTHRO"),
+    PHILANTHROPIST("PHILANTHROPIST"),
     ADMIN("ADMIN");
 
     private String value;
